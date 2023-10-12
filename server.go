@@ -7,11 +7,11 @@ import (
 )
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
-
+	
 }
 
 func aboutHandler(w http.ResponseWriter, r *http.Request) {
-
+	fmt.Fprintln(w,"This is an about page.")
 }
 
 func contactHandler(w http.ResponseWriter, r *http.Request) {
